@@ -2,21 +2,21 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  display: flex;
+  /* display: flex; */
 }
 
 ul {
-  display: flex;
+  /* display: flex; */
 }
 .wrapper {
-  width: 1440px;
+  /* width: 1440px; */
 }
 
 header {
 }
 
 nav {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 /* logo */
@@ -67,7 +67,7 @@ nav {
 }
 
 .list-menu {
-  display: inline;
+  /* display: inline; */
 }
 
 /* address */
@@ -80,7 +80,7 @@ nav {
 }
 
 .list-address {
-  display: inline;
+  /* display: inline; */
 }
 
 .address-link {
@@ -105,14 +105,14 @@ nav {
 
 /* banner*/
 .banner-main {
-  height: 600px;
+  /* height: 600px; */
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
   margin-bottom: 120px;
 }
 
 .banner-slogan {
-  width: 496px;
+  /* width: 496px; */
   color: var(--WHITE, #fff);
   text-align: center;
   /* Header 1 */
@@ -129,13 +129,13 @@ nav {
 }
 
 .banner-button {
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
+  /* display: inline-flex; */
+  /* padding: 16px 32px; */
+  /* align-items: flex-start; */
+  /* gap: 10px; */
+  /* border-radius: 4px; */
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -145,7 +145,7 @@ nav {
   cursor: pointer;
 
   margin: 0 auto;
-  display: block;
+  /* display: block; */
 }
 
 .buttom-text {
@@ -208,7 +208,7 @@ nav {
 
 /* Our team */
 .team {
-  height: 732px;
+  /* height: 732px; */
   flex-shrink: 0;
   background: var(--CLOUD, #f4f4fd);
 }
@@ -238,17 +238,17 @@ nav {
 
 .team-part {
   list-style: none;
-  display: inline-flex;
+  /* display: inline-flex; */
   padding-bottom: 0px;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
-  align-items: center;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
+  /* align-items: center; */
+  /* gap: 32px; */
+  /* border-radius: 0px 0px 4px 4px; */
   background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+  /* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
   margin-left: 24px;
 
   font-weight: 500;
@@ -323,20 +323,20 @@ nav {
 
 .portfolio-list-item {
   margin-inline-start: 24px;
-  display: flex;
-  width: 360px;
-  height: 420px;
+  /* display: flex; */
+  /* width: 360px;
+  height: 420px; */
   padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* gap: 32px; */
   flex-shrink: 0;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
 
 .portfolio-foto {
-  display: inline-block;
+  /* display: inline-block; */
   flex-shrink: 0;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -358,7 +358,6 @@ nav {
 
 .portfolio-label-header {
   color: var(--NAVY-BLUE, #2e2f42);
-
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -383,12 +382,12 @@ nav {
 
 /* Footer */
 .footer {
-  height: 312px;
+  /* height: 312px; */
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .footer-logo-link {
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 101.5px;
   margin-left: 156px;
   margin-bottom: 16px;
@@ -406,7 +405,7 @@ nav {
 }
 
 .footer-slogan {
-  width: 264px;
+  /* width: 264px; */
   color: var(--CLOUD, #f4f4fd);
   /* Body */
   font-family: Roboto;

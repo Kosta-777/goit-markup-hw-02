@@ -99,7 +99,7 @@ nav {
   color: #404bbf;
 }
 
-.address-link:active {
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -163,7 +163,7 @@ nav {
   background: #404bbf;
 }
 
-.banner-button:active {
+.banner-button:focus {
   background: #404bbf;
 }
 
@@ -250,6 +250,12 @@ nav {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   margin-left: 24px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-foto {
@@ -270,8 +276,8 @@ nav {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
 
@@ -387,6 +393,12 @@ nav {
   margin-left: 156px;
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-logo-dark {

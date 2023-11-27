@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: ffffff;
+  background-color: #ffffff;
   margin: 0 auto;
   display: flex;
 }
@@ -58,6 +58,10 @@ nav {
   color: #404bbf;
 }
 
+.link-menu:focus {
+  color: #404bbf;
+}
+
 .link-menu:active {
   text-decoration: underline;
   color: #404bbf;
@@ -69,15 +73,18 @@ nav {
 
 /* address */
 .address {
-  list-style-type: none;
   font-style: normal;
+}
+
+.address-list-content {
+  list-style-type: none;
 }
 
 .list-address {
   display: inline;
 }
 
-.link-address {
+.address-link {
   text-decoration: none;
   color: var(--SLATE, #434455);
   /* Body */
@@ -89,11 +96,11 @@ nav {
   letter-spacing: 0.32px;
 }
 
-.link-address:hover {
+.address-link:hover {
   color: #404bbf;
 }
 
-.link-address:active {
+.address-link:active {
   color: #404bbf;
 }
 
@@ -215,7 +222,7 @@ nav {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   padding-top: 120px;
@@ -256,16 +263,16 @@ nav {
   padding-top: 32px;
 } */
 
-.team-name .portfolio-label-header {
+.team-name {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
+
   /* Header 3 */
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
@@ -278,8 +285,8 @@ nav {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Portfolio */
@@ -292,8 +299,6 @@ nav {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   line-height: 1.11;
-
-  /* Header 2 */
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
@@ -301,7 +306,6 @@ nav {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  /* margin-top: 120px; */
 }
 
 .portfolio-list {
@@ -373,12 +377,12 @@ nav {
 }
 
 /* Footer */
-footer {
+.footer {
   height: 312px;
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.logo-link {
+.footer-logo-link {
   display: inline-block;
   margin-top: 101.5px;
   margin-left: 156px;
@@ -386,7 +390,7 @@ footer {
   font-family: 'Raleway', sans-serif;
 }
 
-.logo-dark {
+.footer-logo-dark {
   color: var(--CLOUD, #f4f4fd);
 }
 

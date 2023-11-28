@@ -70,10 +70,10 @@ nav {
 }
 
 .address-list-content {
-  list-style-type: none;
+  
 }
 
-.list-address {
+.address-list { list-style-type: none;
 }
 
 .address-link {
@@ -99,7 +99,7 @@ nav {
 .banner-main {
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
-  margin-bottom: 120px;
+  
 }
 
 .banner-slogan {
@@ -110,9 +110,6 @@ nav {
   font-style: normal;
   font-weight: 700;
   letter-spacing: 1.12px;
-  padding-top: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
   line-height: 1.07;
 }
 
@@ -125,7 +122,6 @@ nav {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  margin: 0 auto;
 }
 
 .buttom-text {
@@ -153,7 +149,6 @@ nav {
 
 .vorteil-list {
   list-style-type: none;
-  margin-bottom: 120px;
 }
 
 .vorteil-list-part {
@@ -167,7 +162,6 @@ nav {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  margin-bottom: 8px;
 }
 
 .vorteil-text {
@@ -178,8 +172,6 @@ nav {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  padding-right: 24px;
-  margin-top: 0px;
 }
 
 /* Our team */
@@ -198,24 +190,16 @@ nav {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-top: 120px;
 }
 
 .team-list {
-  padding-bottom: 32px;
   text-align: center;
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-top: 72px;
-  padding-bottom: 120px;
 }
 
 .team-part {
   list-style: none;
-  padding-bottom: 0px;
   justify-content: center;
   background: var(--WHITE, #fff);
-  /margin-left: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -239,11 +223,9 @@ nav {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  margin-bottom: 8px;
 }
 
 .team-profi {
-  margin-top: 0px;
   color: var(--SLATE, #434455);
   text-align: center;
   font-family: Roboto;
@@ -257,7 +239,6 @@ nav {
 /* Portfolio */
 
 .portfolio {
-  margin-bottom: 72px;
 }
 
 .portfolio-header {
@@ -275,12 +256,9 @@ nav {
 
 .portfolio-list {
   list-style-type: none;
-  margin-top: 0px;
 }
 
 .portfolio-list-item {
-  margin-inline-start: 24px;
-  padding-bottom: 0px;
   flex-shrink: 0;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
@@ -323,9 +301,6 @@ nav {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .footer-logo-link {
-  margin-top: 101.5px;
-  margin-left: 156px;
-  margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -333,6 +308,7 @@ nav {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
 .footer-logo-dark {
@@ -345,7 +321,7 @@ nav {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 24px;фцв
   letter-spacing: 0.32px;
-  margin-left: 156px;
+ 
 }
